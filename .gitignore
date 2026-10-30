@@ -1,0 +1,25 @@
+# secrets / credentials - never commit a real config or token
+.env
+*.env
+DX-CF-DDNS.json
+*-state.json
+auth.*
+*token*
+*.pem
+*.key
+*.pfx
+credentials*
+# runtime / logs
+*.log
+*.log.1
+Logs/
+State/
+# test / build output
+testResults.xml
+coverage.xml
+dist/
+# editor / backups
+.vscode/
+*.bak
+*.orig
+*~
